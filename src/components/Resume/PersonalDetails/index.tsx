@@ -8,7 +8,7 @@ const PersonalDetails: FC = () => {
       <Grid item xs={12} paddingLeft={0}>
         <Typography variant="h6">Personal Details</Typography>
       </Grid>
-      <Grid container xs={12} spacing={2}>
+      <Grid container xs={12}>
         <Grid item xs={6}>
           <TextField label="Job Title" fullWidth />
         </Grid>
@@ -16,7 +16,7 @@ const PersonalDetails: FC = () => {
           <TextField label="photo" fullWidth />
         </Grid>
       </Grid>
-      <Grid container xs={12} spacing={2}>
+      <Grid container xs={12}>
         <Grid item xs={6}>
           <TextField label="First Name" fullWidth />
         </Grid>
@@ -24,7 +24,7 @@ const PersonalDetails: FC = () => {
           <TextField label="Last Name" fullWidth />
         </Grid>
       </Grid>
-      <Grid container xs={12} spacing={2}>
+      <Grid container xs={12}>
         <Grid item xs={6}>
           <TextField label="Email" fullWidth />
         </Grid>
@@ -32,11 +32,11 @@ const PersonalDetails: FC = () => {
           <TextField label="Phone" fullWidth />
         </Grid>
       </Grid>
-      <Grid item xs={12} spacing={2}>
+      <Grid item xs={12}>
         <Button onClick={() => setCollapse(!collapse)}>{collapse ? 'Hide more details' : 'Show more details'}</Button>
       </Grid>
       <Collapse in={collapse}>
-        <Grid container xs={12} spacing={2}>
+        <Grid container xs={12}>
           <Grid item xs={6}>
             <TextField label="Country" fullWidth />
           </Grid>
@@ -44,7 +44,7 @@ const PersonalDetails: FC = () => {
             <TextField label="City" fullWidth />
           </Grid>
         </Grid>
-        <Grid container xs={12} spacing={2}>
+        <Grid container xs={12}>
           <Grid item xs={6}>
             <TextField label="Address" fullWidth />
           </Grid>
@@ -52,7 +52,7 @@ const PersonalDetails: FC = () => {
             <TextField label="Postal Code" fullWidth />
           </Grid>
         </Grid>
-        <Grid container xs={12} spacing={2}>
+        <Grid container xs={12}>
           <Grid item xs={6}>
             <TextField label="Driving License" fullWidth />
           </Grid>
@@ -60,7 +60,7 @@ const PersonalDetails: FC = () => {
             <TextField label="Nationality" fullWidth />
           </Grid>
         </Grid>
-        <Grid container xs={12} spacing={2}>
+        <Grid container xs={12}>
           <Grid item xs={6}>
             <TextField label="Place Of Birth" fullWidth />
           </Grid>
