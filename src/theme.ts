@@ -12,4 +12,12 @@ const theme = createTheme({
   },
 });
 
+theme.components = {
+  MuiGrid: {
+    defaultProps: {
+      marginBottom: theme.spacing(1),
+    },
+  },
+};
+
 export default theme;
