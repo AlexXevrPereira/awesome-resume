@@ -1,25 +1,25 @@
 import React, { FC } from 'react';
 import { Button, Grid, Typography } from '@material-ui/core';
-import EmploymentEntry from './EmploymentEntry';
 import { Add } from '@material-ui/icons';
+import EducationEntry from './EducationEntry';
 
-const EmploymentHistory: FC = () => {
+const Education: FC = () => {
   return (
     <Grid container xs={12}>
       <Grid item xs={8}>
-        <Typography variant="h6">Employment History</Typography>
-        <Typography variant="caption">Include your relevant job employment here.</Typography>
+        <Typography variant="h6">Education</Typography>
+        <Typography variant="caption">Include your relevant educational achievements here.</Typography>
       </Grid>
       <Grid item xs={4}>
         <Button fullWidth startIcon={<Add />}>
-          Add employment
+          Add education
         </Button>
       </Grid>
       <Grid item xs={12}>
-        <EmploymentEntry />
+        <EducationEntry />
       </Grid>
     </Grid>
   );
 };
 
-export default EmploymentHistory;
+export default Education;
