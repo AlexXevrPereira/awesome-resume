@@ -1,25 +1,27 @@
 import React, { FC } from 'react';
 import { Button, Grid, Typography } from '@material-ui/core';
-import EmploymentEntry from './EmploymentEntry';
 import { Add } from '@material-ui/icons';
+import LinkEntry from './LinkEntry';
 
-const EmploymentHistory: FC = () => {
+const Links: FC = () => {
   return (
     <Grid container xs={12}>
       <Grid item xs={8}>
-        <Typography variant="h6">Employment History</Typography>
-        <Typography variant="caption">Include your relevant job employment here.</Typography>
+        <Typography variant="h6">Links</Typography>
+        <Typography variant="caption">
+          Include any websites or links you want hiring managers to see. E.g: LinkedIn, blogs, ...{' '}
+        </Typography>
       </Grid>
       <Grid item xs={4}>
         <Button fullWidth startIcon={<Add />}>
-          Add employment
+          Add Link
         </Button>
       </Grid>
       <Grid item xs={12}>
-        <EmploymentEntry />
+        <LinkEntry />
       </Grid>
     </Grid>
   );
 };
 
-export default EmploymentHistory;
+export default Links;

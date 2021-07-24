@@ -3,6 +3,9 @@ import { Grid, TextField } from '@material-ui/core';
 import PersonalDetails from './PersonalDetails';
 import ProfessionalSummary from './ProfessionalSummary';
 import EmploymentHistory from './EmploymentHistory';
+import Education from './Education';
+import Links from './Links';
+import Skills from './Skills';
 
 const Resume: FC = () => {
   return (
@@ -12,6 +15,9 @@ const Resume: FC = () => {
         <PersonalDetails />
         <ProfessionalSummary />
         <EmploymentHistory />
+        <Education />
+        <Links />
+        <Skills />
       </Grid>
     </Grid>
   );
