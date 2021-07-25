@@ -1,25 +1,25 @@
 import React, { FC } from 'react';
 import { Button, Grid, Typography } from '@material-ui/core';
 import { Add } from '@material-ui/icons';
-import SkillEntry from './SkillEntry';
+import LanguageEntry from './LanguageEntry';
 
-const Skills: FC = () => {
+const Languages: FC = () => {
   return (
     <Grid container>
       <Grid item xs={8}>
-        <Typography variant="h6">Skill</Typography>
+        <Typography variant="h6">Languages</Typography>
         <Typography variant="caption">Level</Typography>
       </Grid>
       <Grid item xs={4}>
         <Button fullWidth startIcon={<Add />}>
-          Add Skill
+          Add Language
         </Button>
       </Grid>
       <Grid item xs={12}>
-        <SkillEntry />
+        <LanguageEntry />
       </Grid>
     </Grid>
   );
 };
 
-export default Skills;
+export default Languages;

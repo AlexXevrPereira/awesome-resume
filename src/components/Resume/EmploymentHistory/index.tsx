@@ -5,7 +5,7 @@ import { Add } from '@material-ui/icons';
 
 const EmploymentHistory: FC = () => {
   return (
-    <Grid container xs={12}>
+    <Grid container>
       <Grid item xs={8}>
         <Typography variant="h6">Employment History</Typography>
         <Typography variant="caption">Include your relevant job employment here.</Typography>

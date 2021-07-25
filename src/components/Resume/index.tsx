@@ -6,6 +6,8 @@ import EmploymentHistory from './EmploymentHistory';
 import Education from './Education';
 import Links from './Links';
 import Skills from './Skills';
+import Languages from './Languages';
+import References from './References';
 
 const Resume: FC = () => {
   return (
@@ -18,6 +20,8 @@ const Resume: FC = () => {
         <Education />
         <Links />
         <Skills />
+        <Languages />
+        <References />
       </Grid>
     </Grid>
   );
