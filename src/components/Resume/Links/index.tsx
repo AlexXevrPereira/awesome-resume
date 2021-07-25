@@ -5,7 +5,7 @@ import LinkEntry from './LinkEntry';
 
 const Links: FC = () => {
   return (
-    <Grid container xs={12}>
+    <Grid container>
       <Grid item xs={8}>
         <Typography variant="h6">Links</Typography>
         <Typography variant="caption">

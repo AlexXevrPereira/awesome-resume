@@ -5,7 +5,7 @@ import EducationEntry from './EducationEntry';
 
 const Education: FC = () => {
   return (
-    <Grid container xs={12}>
+    <Grid container>
       <Grid item xs={8}>
         <Typography variant="h6">Education</Typography>
         <Typography variant="caption">Include your relevant educational achievements here.</Typography>
